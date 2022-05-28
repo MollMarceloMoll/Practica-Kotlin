@@ -1,2 +1,2 @@
 # Practica-Kotlin
-Ejercicios resueltos con Kotlin
+Ejercicios resueltos con codigo Kotlin
