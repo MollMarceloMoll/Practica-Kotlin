@@ -1,0 +1,6 @@
+fun main(args: Array<String>){
+    val a = listOf("Lunes","Martes","Miercoles","Jueves","Viernes","sabado","Domingo")
+    for (i in a) {
+        println(i)
+    }
+}
