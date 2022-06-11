@@ -1,0 +1,9 @@
+class Persona constructor(nombre:String, edad:Itn){
+  var nombre: String = ""
+  var edad: Int = 0
+  var hombre: Boolean = true
+  
+  fun registrar(n: String): String{
+    return "Registrando"
+  }
+}
