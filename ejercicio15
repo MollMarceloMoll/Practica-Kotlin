@@ -1,0 +1,12 @@
+fun main() {
+    var dias = arrayOf("Lunes","Martes","Miercoles","Jueves","Viernes")
+    
+    for (i in dias) {
+        println(i)
+    }
+    
+    println("---------------")
+  
+    dias[0] = "Domingo"
+    println(dias[0])
+}
