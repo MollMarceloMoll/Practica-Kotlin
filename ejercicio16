@@ -1,0 +1,8 @@
+fun main() {
+    val array = arrayListOf<Int>(1,2,3,4,5)
+    array.add(10)
+    array.add(20)
+    for (i in array) {
+        println(i)
+    }
+}
