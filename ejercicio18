@@ -1,0 +1,10 @@
+fun main() {
+    val a: String = "H"
+    val b: String = "e"
+    val c: String = "l"
+    val d: String = "l"
+    val e: String = "o"
+    val k: String = "Kotlin"
+    print(a + b + c + d + e)
+    print(k)
+}
