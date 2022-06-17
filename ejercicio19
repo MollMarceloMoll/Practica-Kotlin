@@ -1,0 +1,17 @@
+fun main() {
+    var i = 1
+    while (i <= 100 ){
+        var tres = i % 3 == 0
+    var cinco = i % 5 == 0
+        if (tres && cinco) {
+            println("FizzBuzz")
+        } else if (tres){
+            println("Fizz")
+        } else if (cinco){
+            println("Buzz")
+        } else {
+            println(i)
+        }
+        i++
+    }
+}
