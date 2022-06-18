@@ -1,0 +1,5 @@
+fun main() {
+    (1..10).forEach{ _ ->
+        println("Hello Koltlin")
+    }
+}
