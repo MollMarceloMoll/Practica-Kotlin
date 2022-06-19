@@ -1,0 +1,6 @@
+fun main() {
+    fun saludar(){
+        println("Hello Kotlin")
+    }
+    saludar()
+}
