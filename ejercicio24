@@ -1,0 +1,18 @@
+fun main() {
+    /*fun saludar(dia: Int, mes: Int, saludo: String, boleto: Boolean): Unit{
+        println("Buenos Dias")
+    }
+    saludar(dia =1, mes =1, saludo ="Hola", boleto= false)*/
+    fun calculadora(a: Long, b: Long, c: String){
+        if (c == "Suma") {
+            println(a + b)
+        } else if (c == "Resta") {
+            println(a - b)
+        } else if (c == "Multiplicacion") {
+            println(a * b)
+        } else if (c == "Division") {
+            println(a / b)
+        }
+    }
+    calculadora(a = 5 ,b = 5 ,c = "Multiplicacion")
+}
