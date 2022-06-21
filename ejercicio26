@@ -1,0 +1,6 @@
+fun main() {
+    fun perimetroTriangulo(a: Int, b: Int, c: Int): Int{
+        return(a + b + c)
+    }
+    println(perimetroTriangulo(50,50,50))
+}
