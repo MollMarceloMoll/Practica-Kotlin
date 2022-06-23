@@ -1,0 +1,7 @@
+fun main() {
+    fun porcentaje(a: Long, b: Long): Long {
+        val c: Long = (a * b / 100)
+        return(c)
+    }
+    println(porcentaje(a = 100, b = 50))
+}
