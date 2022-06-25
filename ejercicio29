@@ -1,0 +1,9 @@
+fun main() {
+    val a: Int = 10
+    val b: Int = 5
+    val c: Int = 8
+    
+    println((a == b) && (c > b))
+    println((a == b) || (b == c))
+    println(!(b <= c))
+}
