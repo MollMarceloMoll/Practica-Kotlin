@@ -1,0 +1,19 @@
+fun main() {
+    fun dias(){
+        val d = arrayOf("Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo")
+        
+        for (i in d) {
+            print("$i ")
+        }
+    }
+    fun meses(){
+        val m = arrayOf("Enereo","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+        
+        for (i in m) {
+            print("$i ")
+        }
+    }
+    dias()
+    println("-")
+    meses()
+}
