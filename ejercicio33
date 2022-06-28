@@ -1,0 +1,9 @@
+fun main() {
+    val a = intArrayOf(1,2,3,4,5)
+    val b = intArrayOf(6,7,8,9,10)
+    val c = a + b
+    
+    for (i in c) {
+        println(i)
+    }
+}
