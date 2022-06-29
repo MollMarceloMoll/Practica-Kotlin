@@ -1,0 +1,5 @@
+fun main() {
+    val a: Int = 7
+    val b = if (a >= 7) true else false
+    println(b)
+}
