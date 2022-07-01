@@ -1,0 +1,7 @@
+fun main() {
+    var a = 0
+    while (a in 0..10) {
+        println(a)
+        a++
+    }
+}
