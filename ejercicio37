@@ -1,0 +1,14 @@
+fun dias() {
+    val a = arrayOf("Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo")
+}
+fun comidas() {
+    val b = arrayOf("Milanesas","Pizza","Pescado","Pollo","Carne Asada","Tarta","Empanadas")
+}
+fun menuDelDia(){
+    val dia = dias()
+    val comida = comidas()
+    println("El menu del $dia es $comida")
+}
+fun main() {
+    menuDelDia()
+}
