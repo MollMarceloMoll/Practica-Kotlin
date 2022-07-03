@@ -1,0 +1,32 @@
+fun main() {
+    val decorations = listOf("Rock", "Pagoda", "Plastic Plant", "Alligator", "Flowerpot")
+   
+    // eager, creates a new list
+    val eager = decorations.filter { it [0] == 'P'}
+    println("Eager: $eager")
+    
+    // lazi, will wait until asked to evaluate
+    val filtered = decorations.asSequence().filter { it [0] == 'P'}
+    println("Filtered: $filtered")
+    
+    // force evaluation of the lazy list
+    val newList = filtered.toList()
+    println("New list: $newList")
+    
+    val lazyMap = decorations.asSequence().map {
+        println("access: $it")
+        it
+    }
+    println("Lazy: $lazyMap")
+    println("-----")
+    println("First: ${lazyMap.first()}")
+    println("-----")
+    println("All: ${lazyMap.toList()}")
+    
+    val lazyMap2 = decorations.asSequence().filter {it [0] == 'P'}.map {
+        println("Access: $it")
+        it
+    }
+    println("-----")
+    println("Filtered: ${lazyMap2.toList()}")
+}
