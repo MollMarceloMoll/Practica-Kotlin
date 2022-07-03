@@ -1,0 +1,8 @@
+fun main() {
+    fun clima(estado: String = "Calor"): String {
+        return  estado
+    }
+    println(clima())
+    println(clima("Frio"))
+    println(clima(estado = "Lluvia"))
+}
