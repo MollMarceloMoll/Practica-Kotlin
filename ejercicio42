@@ -1,0 +1,13 @@
+fun funcion(a: Int): String {
+    return when(a){
+        1 -> "Es 1"
+        2 -> "Es 2"
+        3 -> "Es 3"
+        4 -> "Es 4"
+        5 -> "Es 5"
+        else -> "No es igual"
+    }
+}
+fun main() {
+    println(funcion(4))
+}
