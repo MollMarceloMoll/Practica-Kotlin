@@ -1,0 +1,17 @@
+fun funWhen(a: Int): String {
+    return when(a) {
+        1 -> ("Es $a")
+        2 -> ("Es $a")
+        else -> ("Es 0")
+    }
+}
+fun main() {
+    var a: Int = 10
+    
+    when(a){
+        1 -> println("1")
+        2 -> println("2")
+        else -> println("0")
+    }
+    println(funWhen(a = 20))
+}
