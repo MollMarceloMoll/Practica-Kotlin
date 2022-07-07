@@ -1,0 +1,5 @@
+fun main() {
+    val aToZ = "a".."z"
+    var siEsta = "x" in aToZ
+    println(siEsta)
+}
