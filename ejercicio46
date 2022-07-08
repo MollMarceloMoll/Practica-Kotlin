@@ -1,0 +1,7 @@
+fun main() {
+    fun <T> generica(t:T): Unit {
+        println(t)
+    }
+    generica(1)
+    generica("Hello Kotlin")
+}
