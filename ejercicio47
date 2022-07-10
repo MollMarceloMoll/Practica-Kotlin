@@ -1,0 +1,17 @@
+fun main() {
+    fun suma (a: Int, b: Int): Int {
+        return a + b
+    }
+    /*fun resta (a: Int, b: Int): Int {
+        return a - b
+    }*/
+    fun calculadora(e: String, a: Int, b: Int) {
+        val s = "Suma"
+        if(s == e) {
+            println(suma(a,b))
+        } else {
+            println("Error")
+        }
+    }
+    calculadora("Suma", 5, 5)
+}
