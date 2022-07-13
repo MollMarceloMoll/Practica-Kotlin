@@ -1,0 +1,5 @@
+fun main() {
+    val n = 1..6
+    val randomNumber = n.random()
+    println("Random Number ${randomNumber}")
+}
