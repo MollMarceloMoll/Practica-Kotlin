@@ -1,0 +1,21 @@
+fun main() {
+    fun classes() {
+        val m = Programador("Marcelo",30,arrayOf("Kotlin","Java"))
+        println(m.info())
+        println(m.code())
+    }
+classes()
+}
+class Programador(var nombre: String, var edad: Int, var lenguajes: Array<String>) {
+    
+    fun info() {
+        println("Nombre del programdor: $nombre")
+        println("Edad del programdor: $edad")
+    }
+    
+    fun code() {
+        for (i in lenguajes) {
+            println("Pr $i")
+        }
+    }
+}
