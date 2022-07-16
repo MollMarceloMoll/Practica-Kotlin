@@ -1,0 +1,18 @@
+enum class Direcciones() {
+    Norte, Sur, Este, Oeste
+}
+private fun funcion() {
+    var d: Direcciones? = null
+    println(d)
+    d = Direcciones.Norte
+    println("La direccion es : $d")
+    d = Direcciones.Sur
+    println("La direccion es : $d")
+    d = Direcciones.Este
+    println("La direccion es : $d")
+    d = Direcciones.Oeste
+    println("La direccion es : $d")
+}
+fun main() {
+    funcion()
+}
