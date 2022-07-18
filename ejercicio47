@@ -11,6 +11,9 @@ fun main() {
     fun division (a: Int, b: Int): Int {
         return a / b
     }
+    fun porcentaje (a: Int, b: Int): Int {
+        return a % b
+    }
     fun calculadora(e: String, a: Int, b: Int) {
         val s = "Suma"
         if(s == e) {
