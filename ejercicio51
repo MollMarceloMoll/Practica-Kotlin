@@ -3,7 +3,7 @@ fun main() {
 	val myFirstDice = Dice(6)
 	println("Your ${myFirstDice.numSides} sided dice rolled ${myFirstDice.roll()}!")
 
-    val mySecondDice = Dice(20)
+    val mySecondDice = Dice(10)
     println("Your ${mySecondDice.numSides} sided dice rolled ${mySecondDice.roll()}!")
 }
 
