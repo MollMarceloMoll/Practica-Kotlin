@@ -1,0 +1,14 @@
+fun tanque(total: Int, litros: Int): String {
+    if (total == litros) {
+       return ("tanque lleno") 
+    } else if (total > litros) {
+        return ("tanque a la mitad")
+    } else if (total == ) {
+        return ("tanque vacio")
+    } else {
+        return ("llenar el tanque")
+    }
+}
+fun main() {
+    println(tanque(50,0))
+}
