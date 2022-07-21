@@ -1,0 +1,6 @@
+fun main() {
+    val base: Int = 10
+    val altura: Int = 20
+    val area: Int = (base * altura) / 2
+    println(area)
+}
