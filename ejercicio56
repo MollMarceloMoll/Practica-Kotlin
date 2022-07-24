@@ -1,0 +1,8 @@
+fun main() {
+    for(i in 100..150){
+        var a: Int = i / 100
+        var b: Int = (i % 100) / 10
+        var c: Int = i % 10
+        println("El número inverso de $i es $c$b$a")
+    }
+}
