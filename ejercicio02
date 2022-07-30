@@ -1,0 +1,9 @@
+fun main() {
+    val a: Int = 10
+    val b: Int = 5
+    if (a > b) {
+        println("$a es mayor que $b")
+    } else {
+        println("$b es mayor que $a")
+    }
+}
