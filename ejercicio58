@@ -1,0 +1,9 @@
+fun main() {
+    for (a in 1..10) {
+        for (b in 11..20) {
+            print(a)
+            println()
+            print(b)
+        }
+    }
+}
