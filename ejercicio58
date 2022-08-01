@@ -1,10 +1,8 @@
 fun main() {
-    var a: Int = 4
-    for (i in 1..50) {
-        if(a == 4) {
-            a ++
-            println(i)
-        }
-        print(i)
-    }
+    val a = NumeroAleatorio()
+    println(a.numero)
+}
+
+class NumeroAleatorio {
+    var numero = (1..100).random()
 }
