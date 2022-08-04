@@ -4,5 +4,5 @@ fun main() {
 }
 
 class NumeroAleatorio {
-    var numero = (1..100).random()
+    val numero = (1..100).random()
 }
